@@ -1,0 +1,211 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+#p-header{
+    width: 100%;
+    height: auto;
+    padding: 2px;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.logo{
+    width: 30%;
+    height: auto;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-left: 5%;
+    text-transform: uppercase;
+}
+.logo h1{
+    animation: 6s fadeIn infinite;
+}
+.navbar{
+    width: 70%;
+    color: white;
+    font-size: 20px;
+    text-align: right;
+    text-decoration: none;
+    list-style-type: none;
+    text-transform: uppercase;
+    margin-left: 5%;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 10px 15px;
+}
+.navbar a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+#portfolio-slider 
+{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: aquamarine;
+}
+.slider{
+    width: 50%;
+    height: auto;
+    margin-left: 25% !important;
+   }
+.slider img{
+    width: 50%;
+    height: 500px;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+.slider-txt{
+    height: auto;
+    text-align: center;
+}
+.slider-txt h1{
+    font-size: 40px;
+    color: white;
+    line-height: 2px;
+}
+.slider-txt hr{
+    width: 50%;
+    height: auto;
+    border: solid 4px white; 
+}
+.slider-txt p{
+    font-size: 20px;
+    color: white;
+}
+#portfolio-content{
+    width: 100%;
+    height: auto;
+}
+.portfolio-txt h1,
+.photoshop-txt h1,
+.illustration-txt h1,
+.about-us-txt h1,
+.technical-skills h1,
+.download-cv h1
+{
+    font-size: 40px;
+    color: black;
+    line-height: 2px;
+    text-align: center;
+    line-height: 0;
+    text-transform: uppercase;
+}
+.portfolio-txt hr,
+.photoshop-txt hr,
+.illustration-txt hr,
+.about-us-txt hr,
+.technical-skills hr
+{
+    width: 100%;
+    height: auto;
+    border: solid 2px black;
+    line-height: 16;
+}
+.portfolio-img img{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-left: 5%;
+}
+.photoshop-img img,
+.illustration-img img
+{
+    width: 30%;
+    height: auto;
+    margin: auto;
+    margin-left: 2%;
+}
+.about-us{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: aquamarine;
+    margin-top: 3%;
+}
+.about-us-txt p{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    color: white;
+    font-size: 25px;
+    text-align: justify;
+}
+.about-us-txt h1,
+.technical-skills h1
+{
+    font-size: 80px;
+    text-align: center;
+    line-height: 0;
+    color: white;
+}
+.about-us-txt hr,
+.technical-skills hr{
+    width: 30%;
+    border: solid 3px white;
+    line-height: 16;
+}
+.about-us-txt span{
+    color: black;
+    text-decoration: underline;
+    font-size: 28px;
+}
+.contact-us form{
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+.contact-us input, textarea
+{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-top: 2%;
+}
+.contact-us input[type="submit"]
+{
+    width: 200px;
+    height: auto;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+.contact-us input[type="reset"]
+{
+    width: 200px;
+    height: auto;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+.download-cv p{
+    text-align: center;
+    font-size: 35px;
+}
+.dwn-cv{
+    font-size: 35px !important;
+    animation: 2s fadeIn infinite !important;
+}
+#footer{
+    width: 100%;
+    height: auto;
+    background-color: aquamarine;
+    padding: 25px;
+    margin-top: 3%;
+}
+@media only screen and max.width: 580px {
+    
+}
